@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+$degx:30deg;
+$movex:141px * 0.1339746;
+$degy:30deg;
+$degz:30deg;
+
+#book{
+    margin: 50px;
+    position: relative;
+}
+
+#top{
+    position: absolute;
+    transition: transform 1s;
+}
+#book:hover #top{
+    transform: rotateX($degx);
+}
+
+#back{
+    position: absolute;
+    left: -50px;
+    transform: rotateY(90deg);
+}
+#btm{
+    position: absolute;
+    left: 0;
+    top: 232px;
+    transform: rotateX(90deg);
+    transition: transform 1s;
+}
+#book:hover #btm{
+    transform: translateY(-$movex + 25) rotateX(90deg - $degx);
+}
