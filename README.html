@@ -1,0 +1,146 @@
+<!-- mysiteを作るprojectのREADMEをまとめたhtml/css -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charaset="utf-8">
+        <title>test</title>
+        <link rel="stylesheet" href="README.css">
+    </head>
+    <body>
+        <!-- main code -->
+        <header>
+            <h1>mysiteprojectのREADME</h1>
+            <nav>
+                <ul>
+                    <li><a href="#concept">コンセプト</a></li>
+                    <li><a href="#image">イメージ</a></li>
+                    <li><a href="#task">タスク</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="concept">
+            <h2>コンセプト</h2>
+            <div class="ttbox">
+                <h3>
+                    テーマ
+                </h3>
+                <h4>
+                    賢者を目指す愚者の部屋
+                </h4>
+            </div>
+            <div class="ttbox">
+                <h3>
+                    サブテーマ
+                </h3>
+                <h4>
+                    RealとFantasyの境界にある魔法使いの書斎
+                </h4>
+            </div>
+            <div class="ttbox">
+                <h3>
+                    カラー
+                </h3>
+                <h4>
+                    <span class="darkbrown">ダークウッドのような暗めの茶色</span>
+                    と<span class="metalblue">メタリックブルーのような紺</span>をベースに
+                    <span class="gold">金</span>や<span class="silver">銀</span>などのメタリックカラーで目を引く
+                </h4>
+            </div>
+        </section>
+
+        <section id="image">
+            <h2>イメージ</h2>
+            <div class="ttbox">
+                <h3>目標とする空間イメージ</h3>
+                <h4>低級で乱雑、だけど刺激的でワクワクする、暗がりのおもちゃ箱のような書斎</h4>
+            </div>
+            <div class="ttbox">
+                <h3>イメージ画像</h3>
+                <img src="image.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="task">
+            <h2>完成までのタスク</h2>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>テーブルの本オブジェクト</h3>
+                </div>
+                <ul>
+                    <li>3Dboxの表示</li>
+                    <li>または3面表示の2D画像</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>本の取り出しアニメーション</h3>
+                </div>
+                <ul>
+                    <li>hoverで本の背表紙を明るいボーダーで強調</li>
+                    <li>次の動作のために3Dのような表現が必要</li>
+                    <li>clickでscaleUP、表紙にターン</li>
+                    <li>自作ダイアログボックスで本へのアクセス確認</li>
+                    <li>'Yes'で本を開いてページをめくるアニメ</li>
+                    <li>ホワイトアウトでページ遷移</li>
+                    <li>'No'の場合はhoverまで逆再生</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>部屋名の表示</h3>
+                </div>
+                <ul>
+                    <li>2D画像作成</li>
+                    <li>position fixed</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>MDGアニメ</h3>
+                </div>
+                <ul>
+                    <li>本を読むアニメーション</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>ゲームリンクオブジェクト</h3>
+                </div>
+                <ul>
+                    <li>オブジェクト2D画像</li>
+                    <li>ページ遷移はなしで暗めのマスク</li>
+                    <li>ゲームプログラム</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>他の部屋へ</h3>
+                </div>
+                <ul>
+                    <li>他の部屋のページ作成</li>
+                    <li>ページ遷移はブラックアウト</li>
+                </ul>
+            </div>
+            <div class="ttbox">
+                <div class="chbox">
+                    <input type="checkbox" class="chbox">
+                    <h3>ろうそくの揺れる光アニメ</h3>
+                </div>
+                <ul>
+                    <li>ランダムなタイミングで光レイヤの明るさ？透明度？を調整</li>
+                    <li>各光源ごとに実装</li>
+                </ul>
+            </div>
+            
+
+        </section>
+        <!-- <script src="test.js"></script> -->
+    </body>
+</html>

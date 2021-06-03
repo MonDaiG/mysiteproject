@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: #024;
+    color: #c56;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #036;
+    padding: 20px 40px;
+    display: flex;
+}
+header h1{
+    /* width: 40vw; */
+    margin: 0;
+
+    font-size:2.5rem;
+    line-height: 3.5rem;
+}
+nav{
+    margin-left: auto;
+    padding: 0;
+    height: 3.5rem;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    /* width: 30vw; */
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+nav ul li a{
+    color: salmon;
+}
+
+section{
+    background: rgba(0,0,0,0.1);
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+h2{
+    color: skyblue;
+    font-size: 2.5rem;
+    border-bottom: steelblue 3px solid;
+}
+
+.ttbox{
+    margin:20px 40px;
+}
+.ttbox h3{
+    font-size: 2rem;
+    margin: 30px 0 10px;
+}
+.ttbox h4{
+    font-size: 1.5rem;
+    color: lemonchiffon;
+    margin: 10px 0;
+    padding: 0 40px;
+}
+.ttbox h4 span{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.darkbrown{
+    color: #320;
+    background-color: lemonchiffon;
+}
+.metalblue{
+    color: #035;
+    background-color: lemonchiffon;
+}
+.gold{
+    color: gold;
+}
+.silver{
+    color: silver;
+}
+
+
+img{
+    width: 100%;
+    margin-left: 40px;
+    object-fit: contain;
+}
+.chbox{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.chbox input{
+    width: 20px;
+    height: 20px;
+    margin: 30px 10px 10px 0px;
+}
+
+.ttbox ul{
+    margin:0;
+    padding: 0;
+    font-size: 1.5rem;
+    color: lemonchiffon
+}
+.ttbox ul li{
+    margin-left: 40px;
+}
